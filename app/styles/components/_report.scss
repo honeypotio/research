@@ -1,0 +1,32 @@
+.c-report {
+  $offset-top: 60px;
+
+  &__img {
+    padding-top: $offset-top;
+    text-align: center;
+
+    img {
+      @media #{$sm-up} {
+        height: 480px
+      }
+    }
+  }
+
+  &__info {
+    padding-top: $offset-top;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: $white-color;
+  }
+
+  &__title {
+    font-size: $fs-12;
+    margin: 36px 0 24px;
+  }
+
+  &__description {
+    max-width: 500px;
+    margin: 20px 0;
+    line-height: 24px;
+  }
+}
