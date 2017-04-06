@@ -13,5 +13,21 @@
 
   &__item {
     background-color: $white-color;
+    padding: 12px 8px;
+    text-align: center;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__img {
+    display: inline-block;
+  }
+
+  &__title {
+    margin: 10px auto;
+    color: initial;
+    height: 24px;
   }
 }

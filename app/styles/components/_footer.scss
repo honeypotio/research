@@ -8,15 +8,6 @@
     text-align: left;
   }
 
-  &--padded {
-    margin-top: 0;
-    padding: 70px 0;
-  }
-
-  &--inverse {
-    background-color: $dark-blue-color;
-  }
-
   a {
     font-size: $fs-2;
     font-weight: $fw-normal;
