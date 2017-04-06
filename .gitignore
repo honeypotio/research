@@ -1,0 +1,9 @@
+# Node
+node_modules/
+**/npm-debug.log
+
+# Sass caching
+.sass-cache/
+
+# Mac stuff
+.DS_Store

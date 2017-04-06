@@ -1,0 +1,23 @@
+.c-navigation {
+  background-color: $white-color;
+
+  &__container {
+    background-color: inherit;
+  }
+
+  &__link {
+    color: inherit;
+    display: block;
+    text-align: center;
+
+    &:hover {
+      color: $blue-color;
+    }
+  }
+
+  &__logo-link { padding: 9px 15px; }
+
+  .icon-bar {
+    background-color: $gray-3-color; 
+  }
+}

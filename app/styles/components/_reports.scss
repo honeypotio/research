@@ -1,0 +1,17 @@
+.c-reports {
+  padding-top: 20px;
+
+  &__header {
+    margin: 30px 0;
+    text-align: center;
+    font-size: $fs-12;
+  }
+
+  &__item-wrapper {
+    margin: 20px 0;
+  }
+
+  &__item {
+    background-color: $white-color;
+  }
+}
