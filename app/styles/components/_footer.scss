@@ -1,0 +1,101 @@
+.c-footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: $light-gray-color;
+
+  @media #{$sm-up} {
+    padding: 40px 0;
+    text-align: left;
+  }
+
+  &--padded {
+    margin-top: 0;
+    padding: 70px 0;
+  }
+
+  &--inverse {
+    background-color: $dark-blue-color;
+  }
+
+  a {
+    font-size: $fs-2;
+    font-weight: $fw-normal;
+    color: $dark-gray-2-color;
+  }
+
+  &__item {
+    font-size: $fs-2;
+    font-weight: $fw-normal;
+    color: $dark-gray-2-color;
+    margin: 20px 10px 0 0;
+    text-align: center;
+    color: $gray-color;
+
+    @media #{$sm-up} {
+      margin: 0 21px 0 0;
+      text-align: left;
+    }
+  }
+
+  &__copyright {
+    display: block;
+    text-align: center;
+
+    @media #{$sm-up} {
+      margin-bottom: 0;
+    }
+  }
+
+  &__company-name {
+    font-size: $fs-2 - 1;
+    font-weight: $fw-light;
+    color: $dark-gray-2-color;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+
+    @media #{$md-up} {
+      float: right;
+      margin-right: 15px;
+      text-align: left;
+    }
+  }
+
+  &__social-container {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+
+    @media #{$md-up} {
+      float: right;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    a:hover,
+    a:visited,
+    a:link,
+    a:visited:hover,
+    a:active {
+      text-decoration: none;
+    }
+
+    .fa {
+      $sizing: 40px;
+      height: $sizing;
+      width: $sizing;
+      margin-right: 5px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 19px;
+      text-align: center;
+      line-height: $sizing;
+      border-radius: $sizing;
+      border: 1px solid $dark-gray-2-color;
+
+      @media #{$md-up} {
+        margin-top: -7px;
+      }
+    }
+  }
+}

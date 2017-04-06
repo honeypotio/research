@@ -3,6 +3,9 @@
 @import 'honeycss-core/elements.root';
 @import 'honeycss-core/button/button';
 
+// Icons
+@import 'utils/font-awesome';
+
 // Utils
 @import 'utils/variables';
 @import 'utils/breakpoints';
@@ -14,3 +17,4 @@
 // Components
 @import 'components/navigation';
 @import 'components/reports';
+@import 'components/footer';
