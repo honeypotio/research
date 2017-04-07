@@ -1,0 +1,37 @@
+.c-related {
+  margin-top: 40px;
+
+  &__title {
+    font-size: $fs-4;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $light-gray-7-color;
+  }
+
+  &__item {
+    width: 200px;
+    float: left;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  &__img-box {
+    float: left;
+    width: 100px;
+    padding: 5px;
+  }
+
+  &__img {
+    width: 90px;
+    border: 1px solid $light-gray-5-color;
+  }
+
+  &__name {
+    float: left;
+    width: 100px;
+    padding-top: 40px;
+    line-height: 20px;
+  }
+}
