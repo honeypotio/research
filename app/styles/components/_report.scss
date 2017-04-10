@@ -25,6 +25,7 @@
     height: 400px;
     max-width: 330px;
     margin: 0 auto;
+    text-align: center;
 
     @media #{$sm-up} {
       height: 480px;
@@ -51,6 +52,7 @@
 
     &--mobile {
       margin: 30px 0 20px 20px;
+      text-align: center;
 
       @media #{$sm-up} {
         display: none;
