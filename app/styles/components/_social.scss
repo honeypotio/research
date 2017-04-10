@@ -17,7 +17,7 @@
     width: auto;
     margin: 20px 0;
     margin-left: 30%;
-    margin-left: calc(50% - 60px);
+    margin-left: calc(50% - 100px);
 
     @media #{$sm-up} {
       display: none;
@@ -26,6 +26,7 @@
 
   &__network {
     display: inline-block;
+    margin: 0 10px;
     margin-bottom: 15px;
     border: 1px solid $light-blue-color;
     width: 40px;
@@ -35,6 +36,12 @@
     font-size: $fs-4;
     text-align: center;
     line-height: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+    @media #{$sm-up} {
+      margin: 0;
+      margin-bottom: 15px;
+    }
 
     a {
       text-decoration: none;
