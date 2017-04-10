@@ -41,6 +41,30 @@
     }
   }
 
+  &__download {
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 0;
+
+    @media #{$sm-up} {
+      width: 100%;
+      float: right;
+      clear: both;
+    }
+
+    @media #{$md-up} {
+      float: none;
+    }
+  }
+
+  &__download-btn {
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    border: 1px solid $blue-color;
+    border-radius: 15px;
+  }
+
   &__info {
     padding: 20px;
     background-color: $white-color;

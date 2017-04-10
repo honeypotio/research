@@ -37,6 +37,7 @@
     text-align: center;
     line-height: 40px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color ease-in 0.2s;
 
     @media #{$sm-up} {
       margin: 0;
@@ -50,14 +51,32 @@
 
     &--facebook {
       color: $facebook-blue-color;
+
+      &:hover {
+        color: $white-color;
+        background-color: $facebook-blue-color;
+        border: none;
+      }
     }
 
     &--linkedin {
       color: $linkedin-blue-color;
+
+      &:hover {
+        color: $white-color;
+        background-color: $linkedin-blue-color;
+        border: none;
+      }
     }
 
     &--twitter {
       color: $twitter-blue-color;
+
+      &:hover {
+        color: $white-color;
+        background-color: $twitter-blue-color;
+        border: none;
+      }
     }
   }
 }
