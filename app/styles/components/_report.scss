@@ -3,9 +3,8 @@
 
   overflow-x: hidden;
 
-  &__img {
+  &__img-wrapper {
     padding-bottom: 50px;
-    text-align: center;
 
     @media #{$sm-up} {
       padding-top: $offset-top;
@@ -19,14 +18,21 @@
       max-width: none;
       float: none;
     }
+  }
+
+  &__img {
+    position: relative;
+    height: 400px;
+    max-width: 330px;
+    margin: 0 auto;
+
+    @media #{$sm-up} {
+      height: 480px;
+    }
 
     img {
+      height: 100%;
       box-shadow: 0 6px 30px -12px $black-color;
-      height: 400px;
-
-      @media #{$sm-up} {
-        height: 480px;
-      }
     }
   }
 
