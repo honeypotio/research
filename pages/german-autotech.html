@@ -60,7 +60,7 @@
             To celebrate, we will issue a report on the AutoTech industry in German, detailing key players, discussing trends, analysing tech demand, and much more.
           </p>
 
-          <form class="c-subscribe">
+          <form class="c-subscribe js-subscribe">
             <p class="c-subscribe__title">Sign-up to receive your copy of the report and don't miss an update!</p>
             <div class="form-group">
               <input type="text" class="form-control c-subscribe__input" name="name" placeholder="Your name" />
@@ -68,6 +68,9 @@
             <div class="form-group">
               <input type="email" class="form-control c-subscribe__input" name="email" placeholder="Your email address" />
             </div>
+            <input type="hidden" style="display: none;" name="report_name" value="Mobility Tech Report">
+            <p class="c-subscribe__error hide js-subscribe-error">Please make sure you included your name and email</p>
+            <p class="c-subscribe__success hide js-subscribe-success">Thank you for subscribing. We will let alert you once the report is available.</p>
             <button type="submit" class="btn btn-block c-subscribe__submit">Subscribe</button>
           </form>
 
@@ -127,6 +130,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript" src="../assets/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../assets/scripts/subscribe.js"></script>
   <script type="text/javascript">document.getElementById('year').textContent = (new Date()).getFullYear();</script>
 </body>
 </html>

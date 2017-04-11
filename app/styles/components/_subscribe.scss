@@ -20,6 +20,17 @@
     height: 50px;
   }
 
+  &__error {
+    margin: 20px 0;
+    color: $warning-color;
+    transition: display ease-in-out 0.5s;
+  }
+
+  &__success {
+    margin: 20px 0;
+    color: $blue-color;
+  }
+
   &__submit {
     height: 50px;
     font-size: $fs-3;
