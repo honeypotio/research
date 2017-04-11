@@ -6,7 +6,7 @@ function showError() {
   error.classList.remove('hide');
   setTimeout(function() {
     error.classList.add('hide');
-  }, 2000);
+  }, 10000);
 }
 
 function showSuccess() {
@@ -14,7 +14,7 @@ function showSuccess() {
   success.classList.remove('hide');
   setTimeout(function() {
     success.classList.add('hide');
-  }, 2000);
+  }, 5000);
   form.name.value = '';
   form.email.value = '';
 

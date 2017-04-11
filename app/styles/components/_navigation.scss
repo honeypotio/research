@@ -6,6 +6,13 @@
     margin-bottom: 0;
   }
 
+  li > a {
+    &:hover {
+      color: $blue-color;
+      background-color: transparent;
+    }
+  }
+
   &__link {
     color: inherit;
     display: block;

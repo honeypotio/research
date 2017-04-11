@@ -63,6 +63,10 @@
     margin: 0 auto;
     border: 1px solid $blue-color;
     border-radius: 15px;
+
+    @media #{$lg-up} {
+      margin-right: 220px;
+    }
   }
 
   &__info {
