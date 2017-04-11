@@ -1,0 +1,29 @@
+.c-subscribe {
+  margin: 40px 0;
+  padding: 15px 25px;
+  background-color: $light-blue-2-color;
+  border: 1px solid $light-blue-color;
+  border-radius: 5px;
+  max-width: 520px;
+
+  @media #{$sm-up} {
+    padding: 25px 40px;
+  }
+
+  &__title {
+    font-size: $fs-2;
+    font-weight: $fw-bold;
+    margin-bottom: 18px;
+  }
+
+  &__input {
+    height: 50px;
+  }
+
+  &__submit {
+    height: 50px;
+    font-size: $fs-3;
+    color: $white-color;
+    background-color: $blue-color;
+  }
+}
